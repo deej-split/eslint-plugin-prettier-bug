@@ -1,0 +1,28 @@
+{
+  "name": "eslint-plugin-prettier-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --updateSnapshot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deej-split/eslint-plugin-prettier-bug.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deej-split/eslint-plugin-prettier-bug/issues"
+  },
+  "homepage": "https://github.com/deej-split/eslint-plugin-prettier-bug#readme",
+  "dependencies": {
+    "@babel/eslint-parser": "^7.22.9",
+    "@json2csv/formatters": "^7.0.1",
+    "@json2csv/node": "^7.0.1",
+    "@json2csv/transforms": "^7.0.1",
+    "eslint": "^8.45.0",
+    "eslint-config-airbnb": "^19.0.4"
+  }
+}
